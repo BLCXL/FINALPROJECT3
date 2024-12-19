@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Full-Page Background */
+  body {
+    background: url('fitness.jpg') no-repeat center center fixed; /* Full-page background */
+    background-size: cover; /* Ensure the image covers the full page */
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: #fff;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f44336;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    color: white;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h1 .highlight {
+    color: #f44336;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .subtext {
+    margin: 20px 0;
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #f44336;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #d32f2f;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #fff;
+    margin-left: 10px;
+  }
+  
+  .btn-outline:hover {
+    background: #fff;
+    color: #000;
+  }
+  
+  /* Motivation Section */
+  .motivation {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .motivation h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .motivation p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.8;
+  }
+  
+  .signature {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
